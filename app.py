@@ -12,6 +12,6 @@ vuln = int(os.getenv('vulnerable', 1))
 alive = int(os.getenv('tokentimetolive', 60))
 
 
-# start the app with port 5000 and debug on!
-if __name__ == '__main__':
-    vuln_app.run()
+# # start the app with port 5000 and debug on!
+# if __name__ == '__main__':
+#     vuln_app.run()
